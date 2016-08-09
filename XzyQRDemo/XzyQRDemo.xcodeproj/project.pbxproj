@@ -17,6 +17,9 @@
 		A1AD19751D59A36000FCFE06 /* XzyQRDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AD19741D59A36000FCFE06 /* XzyQRDemoTests.m */; };
 		A1AD19801D59A36000FCFE06 /* XzyQRDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AD197F1D59A36000FCFE06 /* XzyQRDemoUITests.m */; };
 		A1AD19901D59A40300FCFE06 /* qr_scan_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1AD198E1D59A40300FCFE06 /* qr_scan_line@2x.png */; };
+		A1AD19931D59A49200FCFE06 /* QRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AD19921D59A49200FCFE06 /* QRItem.m */; };
+		A1AD19961D59A4E400FCFE06 /* QRMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AD19951D59A4E400FCFE06 /* QRMenu.m */; };
+		A1AD19991D59A53F00FCFE06 /* QRView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AD19981D59A53F00FCFE06 /* QRView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,12 @@
 		A1AD197F1D59A36000FCFE06 /* XzyQRDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XzyQRDemoUITests.m; sourceTree = "<group>"; };
 		A1AD19811D59A36000FCFE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1AD198E1D59A40300FCFE06 /* qr_scan_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr_scan_line@2x.png"; sourceTree = "<group>"; };
+		A1AD19911D59A49200FCFE06 /* QRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRItem.h; sourceTree = "<group>"; };
+		A1AD19921D59A49200FCFE06 /* QRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRItem.m; sourceTree = "<group>"; };
+		A1AD19941D59A4E400FCFE06 /* QRMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRMenu.h; sourceTree = "<group>"; };
+		A1AD19951D59A4E400FCFE06 /* QRMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRMenu.m; sourceTree = "<group>"; };
+		A1AD19971D59A53F00FCFE06 /* QRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRView.h; sourceTree = "<group>"; };
+		A1AD19981D59A53F00FCFE06 /* QRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +167,12 @@
 		A1AD198F1D59A40300FCFE06 /* QRView */ = {
 			isa = PBXGroup;
 			children = (
+				A1AD19911D59A49200FCFE06 /* QRItem.h */,
+				A1AD19921D59A49200FCFE06 /* QRItem.m */,
+				A1AD19941D59A4E400FCFE06 /* QRMenu.h */,
+				A1AD19951D59A4E400FCFE06 /* QRMenu.m */,
+				A1AD19971D59A53F00FCFE06 /* QRView.h */,
+				A1AD19981D59A53F00FCFE06 /* QRView.m */,
 			);
 			path = QRView;
 			sourceTree = "<group>";
@@ -294,9 +309,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1AD195F1D59A36000FCFE06 /* ViewController.m in Sources */,
+				A1AD19961D59A4E400FCFE06 /* QRMenu.m in Sources */,
 				A1AD19651D59A36000FCFE06 /* XzyQRDemo.xcdatamodeld in Sources */,
+				A1AD19991D59A53F00FCFE06 /* QRView.m in Sources */,
 				A1AD195C1D59A36000FCFE06 /* AppDelegate.m in Sources */,
 				A1AD19591D59A36000FCFE06 /* main.m in Sources */,
+				A1AD19931D59A49200FCFE06 /* QRItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
