@@ -20,6 +20,7 @@
 		A1AD19931D59A49200FCFE06 /* QRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AD19921D59A49200FCFE06 /* QRItem.m */; };
 		A1AD19961D59A4E400FCFE06 /* QRMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AD19951D59A4E400FCFE06 /* QRMenu.m */; };
 		A1AD19991D59A53F00FCFE06 /* QRView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AD19981D59A53F00FCFE06 /* QRView.m */; };
+		A1AD199C1D59A77C00FCFE06 /* QRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AD199B1D59A77C00FCFE06 /* QRViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		A1AD19951D59A4E400FCFE06 /* QRMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRMenu.m; sourceTree = "<group>"; };
 		A1AD19971D59A53F00FCFE06 /* QRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRView.h; sourceTree = "<group>"; };
 		A1AD19981D59A53F00FCFE06 /* QRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRView.m; sourceTree = "<group>"; };
+		A1AD199A1D59A77C00FCFE06 /* QRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRViewController.h; sourceTree = "<group>"; };
+		A1AD199B1D59A77C00FCFE06 /* QRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				A1AD196B1D59A36000FCFE06 /* Info.plist */,
 				A1AD19631D59A36000FCFE06 /* XzyQRDemo.xcdatamodeld */,
 				A1AD19571D59A36000FCFE06 /* Supporting Files */,
+				A1AD199A1D59A77C00FCFE06 /* QRViewController.h */,
+				A1AD199B1D59A77C00FCFE06 /* QRViewController.m */,
 			);
 			path = XzyQRDemo;
 			sourceTree = "<group>";
@@ -315,6 +320,7 @@
 				A1AD195C1D59A36000FCFE06 /* AppDelegate.m in Sources */,
 				A1AD19591D59A36000FCFE06 /* main.m in Sources */,
 				A1AD19931D59A49200FCFE06 /* QRItem.m in Sources */,
+				A1AD199C1D59A77C00FCFE06 /* QRViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XzyQRDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = XiangZiyan.XzyQRDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -467,6 +474,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XzyQRDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = XiangZiyan.XzyQRDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
